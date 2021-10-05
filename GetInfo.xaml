@@ -120,7 +120,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:InputDialog>
-      <ui:InputDialog Options="{x:Null}" DisplayName="Input Tipoo" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InputDialog_6" IsPassword="False" Label="Escolha o tipo de imóvel:" OptionsString="Todos os imóveis;Apartamento;Studio;Kitnet;Casa;Casa de Condomínio;Casa de Vila;Cobertura;Flat;Loft;Terreno / Lote / Condomínio;Fazenda / Sítio / Chácara; Loja / Salão / Ponto Comercial;Conjunto Comercial / Sala;Casa Comercial;Hotel / Motel / Pousada;Andar / Laje Corporativa;Prédio Inteiro;Terrenos / Lotes Comerciais;Galpão / Depósito / Armázem;Garagem" Title="Tipo de Imóvel">
+      <ui:InputDialog Options="{x:Null}" DisplayName="Input Tipo" sap:VirtualizedContainerService.HintSize="200,51" sap2010:WorkflowViewState.IdRef="InputDialog_6" IsPassword="False" Label="Escolha o tipo de imóvel:" OptionsString="Todos os imóveis;Apartamento;Studio;Kitnet;Casa;Casa de Condomínio;Casa de Vila;Cobertura;Flat;Loft;Terreno / Lote / Condomínio;Fazenda / Sítio / Chácara; Loja / Salão / Ponto Comercial;Conjunto Comercial / Sala;Casa Comercial;Hotel / Motel / Pousada;Andar / Laje Corporativa;Prédio Inteiro;Terrenos / Lotes Comerciais;Galpão / Depósito / Armázem;Garagem" Title="Tipo de Imóvel">
         <ui:InputDialog.Result>
           <OutArgument x:TypeArguments="x:String">[Tipo]</OutArgument>
         </ui:InputDialog.Result>
